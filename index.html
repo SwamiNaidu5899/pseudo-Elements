@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+        * {
+            font-family: 'Poppins', sans-serif;
+          }
+       .row
+       {
+        height: 50vh;
+        width: 90%;
+        /* background-color: aqua; */
+        position: relative;
+        left: 5%;
+        top: 25vh;
+        display: flex;
+        justify-content: space-around;
+       }
+       .col
+       {
+        height: 30vh;
+        width: 30vh;
+        /* background-color: #fff; */
+        position: relative;
+        top: 10vh;
+       }
+       img
+       {
+        height: 30vh;
+        
+       }
+       img:hover+.img-1
+       {
+        display: block;
+       }
+       .img-1
+       {
+        position: relative;
+        top: -30vh;
+        display: none; 
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="row">
+       <div class="col">
+        <img src="./happy.png" alt="">
+        <img class="img-1" src="./emoji.png" alt="">
+        
+       </div>
+       <div class="col">
+        <img src="./happy.png" alt="">
+        <img class="img-1" src="./surprised.png" alt="">
+       </div>
+       <div class="col">
+        <img src="./happy.png" alt="">
+        <img class="img-1" src="./emoji (1).png" alt="">
+       </div>
+       <div class="col">
+        <img src="./happy.png" alt="">
+        <img class="img-1" src="./emoji-2.png" alt="">
+       </div>
+       <div class="col">
+        <img src="./happy.png" alt="">
+        <img class="img-1" src="./cool.png" alt="">
+       </div>
+       </div>
+    </div>
+</body>
+</html>
